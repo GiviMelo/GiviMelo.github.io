@@ -1,0 +1,123 @@
+
+#lucas-workspace{--bg:#0f0f14;--side:#13131a;--raised:#181820;--border:#27272f;--text:#f4f4f5;--muted:#a1a1aa;--purple:#a78bfa;color:var(--text);background:var(--bg);font-family:Inter,Arial,sans-serif;border:1px solid var(--border);border-radius:12px;overflow:hidden;position:relative;box-sizing:border-box}#lucas-workspace *{box-sizing:border-box}#lucas-workspace button{font:inherit;color:inherit;border:0;background:none}#lucas-workspace .titlebar{height:58px;display:flex;align-items:center;gap:22px;padding:0 22px;background:var(--raised);border-bottom:1px solid var(--border);padding-right:100px}#lucas-workspace .traffic{display:flex;gap:7px}#lucas-workspace .traffic b{width:9px;height:9px;border-radius:50%;background:#ed6a5e}#lucas-workspace .traffic b:nth-child(2){background:#eab64c}#lucas-workspace .traffic b:nth-child(3){background:#60c351}#lucas-workspace .brand{font-weight:600;white-space:nowrap}#lucas-workspace .brand span{color:var(--purple)}#lucas-workspace .command{margin:auto;background:#101015;border:1px solid var(--border);border-radius:6px;padding:7px 14px;color:var(--muted);font-size:11px;display:flex;gap:50px}#lucas-workspace kbd{font:inherit}#lucas-workspace .lang{font:11px monospace;white-space:nowrap;color:var(--purple)}#lucas-workspace .workspace{display:grid;grid-template-columns:48px 180px minmax(0,1fr)}#lucas-workspace .activity{display:flex;align-items:center;flex-direction:column;gap:28px;padding:22px 0;background:#101015;border-right:1px solid var(--border);color:#777783}#lucas-workspace .activity i:first-child{color:var(--purple)}#lucas-workspace .activity span{flex:1}#lucas-workspace .explorer{background:var(--side);border-right:1px solid var(--border);font:11px monospace;padding:20px 0;display:flex;flex-direction:column}#lucas-workspace .explorer-title{padding:0 18px;color:var(--muted);letter-spacing:1px;display:flex;justify-content:space-between}#lucas-workspace .explorer p{padding:8px 14px 0;color:#c6c6cf;font-size:11px}#lucas-workspace .explorer button{text-align:left;padding:10px 15px;font:11px monospace;white-space:nowrap}#lucas-workspace .explorer button span{display:inline-block;width:20px;color:var(--purple)}#lucas-workspace .explorer button:hover{background:#1c1b26}#lucas-workspace .explorer .selected{background:#231c35;border-left:2px solid #8b5cf6;color:#ddd0ff;padding-left:13px}#lucas-workspace .explorer .nested{padding-left:28px}#lucas-workspace .sidebar-bottom{margin-top:auto;padding:50px 16px 0;color:#a1a1aa;font-size:10px;line-height:1.8;letter-spacing:1px}#lucas-workspace .sidebar-bottom span{font-size:10px;letter-spacing:0;color:#797983}#lucas-workspace main{min-width:0}#lucas-workspace .tabs{height:43px;display:flex;background:#111116;border-bottom:1px solid var(--border);font:11px monospace}#lucas-workspace .active-tab{padding:13px 16px;border-top:2px solid #8b5cf6;background:var(--bg);display:flex;gap:14px;color:var(--purple)}#lucas-workspace #filename{color:#e4e4e7}#lucas-workspace .tab-hint{margin:auto 18px auto auto;color:#73737f}#lucas-workspace .breadcrumb{font:11px monospace;color:#888895;padding:15px 25px;display:flex;gap:12px}#lucas-workspace .home{display:grid;grid-template-columns:1.1fr 1fr;align-items:center;min-height:480px;padding:28px 30px 40px;gap:0}#lucas-workspace .eyebrow{font:12px monospace;color:var(--purple);margin-bottom:28px}#lucas-workspace .eyebrow>span{color:#656573;margin-right:15px}#lucas-workspace .eyebrow b{font-weight:400}#lucas-workspace h1{font-size:clamp(30px,4vw,54px);letter-spacing:-2px;line-height:1.1;font-weight:600;margin:0 0 24px}#lucas-workspace .greeting{font-size:24px;letter-spacing:-.6px;font-weight:400;color:#b8b8c2}#lucas-workspace .dot,#lucas-workspace .caret{color:var(--purple)}#lucas-workspace h2{font-size:20px;line-height:1.45;letter-spacing:-.3px;font-weight:400;margin:0 0 18px;color:#d9d9e1}#lucas-workspace .description{color:var(--muted);font-size:12px;line-height:1.9;max-width:340px}#lucas-workspace .actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}#lucas-workspace .actions button{font-size:11px;padding:12px 14px;border-radius:5px;display:flex;gap:15px;align-items:center}#lucas-workspace .actions .primary{background:#8b5cf6;color:white}#lucas-workspace .actions .secondary{border:1px solid #35333f;color:#d0ccd9}#lucas-workspace .actions button:hover{filter:brightness(1.2)}#lucas-workspace .location{font:10px monospace;color:#8f8f9c;margin-top:30px;display:flex;align-items:center;gap:8px}#lucas-workspace .small-dot{width:5px;height:5px;border-radius:50%;background:var(--purple)}#lucas-workspace .scene{position:relative;aspect-ratio:1/1;min-width:0;background:radial-gradient(ellipse,#37205840,transparent 65%)}#lucas-workspace canvas{width:100%;height:100%;display:block;touch-action:pan-y}#lucas-workspace .scene-grid{position:absolute;inset:15%;border-radius:50%;border:1px solid #a78bfa12;pointer-events:none}#lucas-workspace .skill{position:absolute;transform:translate(-50%,-50%);font:10px monospace;background:#17131f;border:1px solid #373040;border-radius:5px;padding:8px 10px;white-space:nowrap;color:#c7bddb}#lucas-workspace .skill:hover,#lucas-workspace .skill.picked{color:white;border-color:#a78bfa;background:#302047;box-shadow:0 0 20px #8b5cf633}#lucas-workspace .scene-note{position:absolute;bottom:-25px;width:100%;text-align:center;font:9px monospace;color:#81748f;letter-spacing:.4px}#lucas-workspace .scene-note span{color:#a78bfa;margin-left:10px}#lucas-workspace .terminal{border-top:1px solid var(--border);padding:15px 25px 22px;background:#0d0d12;font:11px monospace;color:#c3c3cf}#lucas-workspace .terminal>span{font-size:9px;letter-spacing:1px;border-bottom:1px solid var(--purple);padding-bottom:7px;display:inline-block;margin-bottom:17px}#lucas-workspace .terminal div{display:flex;gap:10px;flex-wrap:wrap}#lucas-workspace .prompt{color:var(--purple)}#lucas-workspace .terminal b{color:var(--purple);font-weight:400}#lucas-workspace footer{background:#231a36;padding:8px 15px;display:flex;justify-content:space-between;font:10px monospace;color:#d1c0eb}#lucas-workspace .footer-ready{margin-left:20px}#lucas-workspace footer b{margin-left:15px}#lucas-workspace .other{min-height:508px;padding:60px 45px;color:#aaaab8;font-size:14px;line-height:1.8}#lucas-workspace .other h1{color:var(--text);font-size:36px;margin:18px 0}#lucas-workspace .other p{max-width:490px}#lucas-workspace .other a{color:var(--purple)}#lucas-workspace .other .project{border-left:1px solid #8b5cf6;padding:5px 20px;margin:30px 0}#lucas-workspace .other h3{color:var(--text);font-weight:500}#lucas-workspace [hidden]{display:none!important}#lucas-workspace .palette{position:absolute;inset:0;background:#0008;padding:75px 20px;z-index:10}#lucas-workspace .palette-box{max-width:440px;margin:auto;background:#181820;border:1px solid #4e3d68;border-radius:9px;box-shadow:0 20px 50px #0009;padding:10px}#lucas-workspace .palette-head{padding:10px;border-bottom:1px solid var(--border);color:var(--muted);font:12px monospace;display:flex;justify-content:space-between}#lucas-workspace .palette-box>button{display:flex;width:100%;padding:14px 10px;justify-content:space-between;font:12px monospace}#lucas-workspace .palette-box>button:hover{background:#302047}#lucas-workspace .palette-box>button span{color:#a1a1aa;font-size:11px}#lucas-workspace .close{color:var(--purple)}@media(max-width:800px){#lucas-workspace .workspace{grid-template-columns:40px 145px minmax(0,1fr)}#lucas-workspace .home{padding:25px 22px;grid-template-columns:1fr}#lucas-workspace .scene{max-width:290px;justify-self:center;width:100%;margin:15px 0 35px}#lucas-workspace .command{gap:15px}#lucas-workspace .explorer button{font-size:10px}#lucas-workspace .hero-copy{padding-top:5px}}@media(max-width:520px){#lucas-workspace .titlebar{padding:0 14px;height:58px;gap:15px;padding-right:95px}#lucas-workspace .traffic{display:none}#lucas-workspace .command{font-size:0;margin-left:auto;padding:8px}#lucas-workspace .command kbd{font-size:11px}#lucas-workspace .lang{font-size:10px}#lucas-workspace .workspace{display:block}#lucas-workspace .activity,#lucas-workspace .explorer{display:none}#lucas-workspace .home{padding:25px}#lucas-workspace h1{font-size:43px}#lucas-workspace .other{padding:35px 25px;min-height:500px}#lucas-workspace .footer-extra{display:none}#lucas-workspace .desktop-break{display:none}}@media(prefers-reduced-motion:reduce){#lucas-workspace .caret{opacity:1}}
+
+:root{color-scheme:dark}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:#09090b;color:#f4f4f5;font:16px/1.7 Inter,Arial,sans-serif}button,a,input{touch-action:manipulation}button{cursor:pointer}a{color:#a78bfa;text-decoration:none}a:hover{text-decoration:underline}button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid #c4b5fd;outline-offset:4px}.hero-stage{max-width:1440px;padding:44px 32px 70px;margin:auto}#lucas-workspace{box-shadow:0 40px 100px #0006}#lucas-workspace .titlebar{padding-right:24px}#lucas-workspace .top-github{margin-left:auto;font:13px monospace}#lucas-workspace .home{min-height:550px;padding:55px 45px;gap:20px}#lucas-workspace h1{font-size:clamp(40px,4.5vw,68px)}#lucas-workspace .greeting{font-size:28px}#lucas-workspace h2{font-size:26px}#lucas-workspace .description{font-size:16px;max-width:430px}#lucas-workspace .actions button{font-size:14px}#lucas-workspace .explorer{font-size:13px}#lucas-workspace .explorer button{font-size:12px}#lucas-workspace .skill{font-size:12px}#lucas-workspace .scene-note{font-size:12px}#lucas-workspace .sidebar-bottom{font-size:12px}#lucas-workspace .terminal{font-size:14px}#lucas-workspace .terminal-heading{display:flex;justify-content:space-between;margin-bottom:16px;color:#a1a1aa}#lucas-workspace .terminal-heading span{font-size:12px}#lucas-workspace .terminal-heading button{font-size:12px}#lucas-workspace #terminal-output{display:block;max-height:150px;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere;color:#b7b0c7;line-height:1.7;margin-bottom:12px}#lucas-workspace #terminal-form{display:flex;align-items:center;gap:12px}#lucas-workspace #terminal-form label{color:#a78bfa;white-space:nowrap}#lucas-workspace #terminal-input{flex:1;min-width:0;background:transparent;color:#f4f4f5;border:0;font:16px monospace;padding:8px}#lucas-workspace #terminal-form button{border:1px solid #393044;padding:8px 12px;border-radius:4px;font-size:12px}.section-nav{position:sticky;top:0;z-index:4;display:flex;justify-content:space-between;align-items:center;padding:18px max(24px,calc((100% - 1100px)/2));background:#09090bf2;border-bottom:1px solid #27272f;gap:30px}.section-nav>a{font:600 18px monospace}.section-nav div{display:flex;gap:25px}.section-nav div a{font-size:14px;color:#c5c0cf}.content-section{max-width:1100px;margin:auto;padding:100px 24px;border-bottom:1px solid #27272f;scroll-margin-top:20px}.section-file{font:13px monospace;color:#a78bfa;letter-spacing:1px}.content-section h2{font-size:clamp(30px,4vw,48px);letter-spacing:-1.3px;line-height:1.2;font-weight:500;margin:24px 0 35px}.content-section p{color:#a1a1aa;max-width:760px}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px}.tech-list{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.tech-list span{font:13px monospace;padding:7px 12px;background:#18141f;border:1px solid #32273f;border-radius:4px;color:#c7b8e0}.timeline{border-left:1px solid #554070;margin:45px 0;padding-left:35px}.timeline article{position:relative;padding:0 0 55px}.timeline article:last-child{padding-bottom:15px}.timeline article:before{content:'';position:absolute;left:-40px;top:7px;width:9px;height:9px;background:#a78bfa;border-radius:50%;box-shadow:0 0 0 6px #09090b}.project-date{font:13px monospace;color:#a78bfa}.content-section h3{font-size:25px;font-weight:500;margin:15px 0}.experience-item{border-left:1px solid #554070;padding-left:30px}.contact-link{display:inline-block;padding:12px 20px;border:1px solid #49375e;border-radius:5px;margin-top:20px}.page-footer{max-width:1100px;margin:auto;padding:35px 24px;display:flex;justify-content:space-between;color:#85818e;font:13px monospace}@media(max-width:900px){#lucas-workspace .home{padding:30px 25px;grid-template-columns:1fr}.hero-stage{padding:20px 16px 45px}#lucas-workspace .scene{max-width:350px;width:100%;justify-self:center;margin:25px 0 40px}.about-grid{gap:30px}}@media(max-width:600px){.hero-stage{padding:12px 10px 40px}#lucas-workspace .home{padding:30px 24px}#lucas-workspace .titlebar{padding-right:20px}#lucas-workspace .scene{max-width:300px}.section-nav{padding:15px 20px;gap:15px;flex-wrap:wrap}.section-nav div{gap:18px;flex-wrap:wrap}.section-nav div a{font-size:13px}.content-section{padding:65px 24px}.about-grid{grid-template-columns:1fr;gap:5px}#lucas-workspace #terminal-form{flex-wrap:wrap;gap:4px}#lucas-workspace #terminal-form label{width:100%;font-size:12px}#lucas-workspace .terminal{padding:15px 20px}.page-footer{gap:20px;flex-wrap:wrap}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* The native input keeps keyboard and accessibility support without textbox chrome. */
+#lucas-workspace #terminal-input{appearance:none;background:transparent;border:0;border-radius:0;box-shadow:none;color:#f4f4f5;caret-color:#a78bfa;padding:2px 0;font:16px/1.5 monospace}
+#lucas-workspace #terminal-input:focus-visible{outline:0;box-shadow:none}
+#lucas-workspace #terminal-form:focus-within label{color:#ddd0ff}
+#lucas-workspace #terminal-form{flex-wrap:nowrap;align-items:baseline}
+@media(max-width:600px){#lucas-workspace #terminal-form label{width:auto;font-size:12px}#lucas-workspace #terminal-input{width:0;flex:1}}
+
+/* A fluid desktop window; content may grow rather than clip at text zoom. */
+.hero-stage{width:100%;max-width:1664px;padding:32px;margin-inline:auto}
+#lucas-workspace{width:100%}
+.experience-item + .experience-item{margin-top:42px}
+.exchange-note{margin-top:28px}
+@media(min-width:1100px){
+ #lucas-workspace{aspect-ratio:16/9;display:grid;grid-template-rows:58px minmax(min-content,1fr) auto;container-type:inline-size}
+ #lucas-workspace .workspace{min-width:0;grid-template-columns:48px clamp(160px,14vw,210px) minmax(0,1fr)}
+ #lucas-workspace main{display:grid;grid-template-rows:43px auto minmax(min-content,1fr) auto}
+ #lucas-workspace .home{min-height:0;grid-template-columns:1.1fr 1fr;padding:clamp(20px,3cqw,48px);gap:20px}
+ #lucas-workspace h1{font-size:clamp(40px,4.2cqw,68px);margin-bottom:20px}
+ #lucas-workspace .greeting{font-size:clamp(23px,2cqw,30px)}
+ #lucas-workspace h2{font-size:clamp(22px,2cqw,28px);margin-bottom:15px}
+ #lucas-workspace .eyebrow{margin:0 0 22px}
+ #lucas-workspace .description{margin:0;font-size:16px;line-height:1.7}
+ #lucas-workspace .actions{margin-top:24px}
+ #lucas-workspace .location{margin-top:24px}
+ #lucas-workspace .scene{width:100%;max-width:460px;justify-self:center}
+ #lucas-workspace .terminal{padding:12px 25px 14px}
+ #lucas-workspace .terminal-heading{margin-bottom:10px}
+ #lucas-workspace #terminal-output{margin-bottom:8px;max-height:100px;font-size:13px}
+}
+@media(max-width:1099px){
+ .hero-stage{padding:20px 16px 40px}
+ #lucas-workspace{aspect-ratio:auto}
+ #lucas-workspace .home{grid-template-columns:1fr;min-height:0}
+ #lucas-workspace .scene{max-width:350px;width:100%;justify-self:center;margin:25px 0 40px}
+}
+@media(max-width:600px){.hero-stage{padding:12px 10px 35px}}
+
+/* The 16:9 size is a minimum, so terminal output cannot push the status bar outside the window. */
+.hero-stage{container-type:inline-size}
+@media(min-width:1100px){
+ #lucas-workspace{aspect-ratio:auto;min-height:calc(100cqw * 9 / 16);height:auto;grid-template-rows:58px minmax(min-content,1fr) minmax(32px,auto)}
+}
+#lucas-workspace footer{min-height:32px;line-height:1.6;align-items:center;gap:10px;flex-wrap:wrap;flex-shrink:0}
+#lucas-workspace #terminal-form{display:grid;grid-template-columns:16px minmax(0,1fr);gap:4px 8px;align-items:center}
+#lucas-workspace #terminal-form .command-marker{color:#a78bfa;font:14px monospace}
+#lucas-workspace #terminal-input{width:100%;min-width:0;grid-column:2}
+#lucas-workspace #terminal-form .terminal-directory{grid-column:1/-1;grid-row:2;width:auto;color:#93879f;font:12px/1.7 monospace;margin-top:4px}
+html{scroll-behavior:auto}
+
+
+
+/* Terminal stays with the introductory text, with output and commands left aligned. */
+#lucas-workspace .hero-copy{min-width:0}
+#lucas-workspace .hero-copy .terminal{width:100%;margin-top:28px;padding:18px 0 0;background:transparent;text-align:left}
+#lucas-workspace .hero-copy .terminal-heading{justify-content:space-between;text-align:left}
+#lucas-workspace .hero-copy #terminal-output{display:block;text-align:left;max-height:135px;font:12px/1.7 monospace}
+#lucas-workspace .hero-copy #terminal-output div{display:block}
+#lucas-workspace .hero-copy #terminal-form{width:100%;text-align:left;justify-items:start}
+#lucas-workspace .hero-copy #terminal-input{width:100%;text-align:left}
+#lucas-workspace .hero-copy .terminal-directory{text-align:left}
+@media(min-width:1100px){#lucas-workspace main{grid-template-rows:43px auto minmax(min-content,1fr)}}
+#lucas-workspace .scene{margin-bottom:35px}
+/* The Spline canvas uses the same bounded, responsive scene area as the preview. */
+#lucas-workspace .scene canvas{width:100%;height:100%;display:block}
+#lucas-workspace .skill-labels[hidden]{display:none!important}
+#lucas-workspace .spline-status{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:#0f0f14d9;color:#b9a7d9;font:12px/1.6 monospace;text-align:center;padding:24px;pointer-events:none}
+#lucas-workspace .spline-fallback-status{inset:auto 0 -58px;background:transparent;padding:0;font-size:11px;color:#a1a1aa}
+#lucas-workspace .spline-ready .scene-grid{display:none}
+#lucas-workspace .spline-ready{background:transparent}
+/* Obsidian-inspired local graph. The canvas stays transparent within the IDE. */
+#lucas-workspace .scene{background:transparent;margin-bottom:155px}
+#lucas-workspace .scene-grid{display:none}
+#lucas-workspace .scene .skill-labels{position:absolute;top:calc(100% + 42px);left:0;right:0;display:flex;flex-wrap:wrap;justify-content:center;gap:6px}
+#lucas-workspace .graph-skill{padding:7px 9px;border:1px solid #2d2739;border-radius:4px;background:#141119;color:#aaa1bc;font:12px monospace}
+#lucas-workspace .graph-skill:hover,#lucas-workspace .graph-skill[aria-pressed="true"]{color:#e0d3ff;background:#261c36;border-color:#6e4ba4}
+#lucas-workspace .scene-note{bottom:-30px;line-height:1.6;font-size:12px;margin:0}
+#lucas-workspace .graph-tools{position:absolute;top:calc(100% + 118px);left:0;right:0;text-align:center}
+#lucas-workspace .graph-tools button{padding:5px 8px;color:#9c90b0;font:12px monospace}
+#lucas-workspace .graph-detail{position:absolute;top:calc(100% + 145px);margin:0;width:100%;text-align:center;font:12px/1.6 monospace;color:#bcb0cf}
+#lucas-workspace .scene{margin-bottom:195px}
+@media(pointer:coarse){#lucas-workspace .graph-skill{min-height:44px}#lucas-workspace .graph-tools{top:calc(100% + 145px)}#lucas-workspace .graph-detail{top:calc(100% + 180px)}#lucas-workspace .scene{margin-bottom:235px}}
+
+/* A personal reference, kept local to About. */
+.personal-note{display:flex;align-items:center;gap:18px;margin-top:30px;padding:8px 0}
+.cruzeiro-stars{width:49px;height:56px;flex:0 0 49px;object-fit:contain;opacity:.85;pointer-events:none}
+.content-section .personal-note p{margin:0;color:#a1a1aa}
+
+/* Portrait and personal photo in About. */
+.about-layout{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:48px;align-items:start}
+.about-portrait{margin:16px 0 0;display:grid;gap:20px}
+.about-portrait img{display:block;width:100%;height:auto;aspect-ratio:3/4;object-fit:cover;border:1px solid #32273f;border-radius:12px}
+.about-copy{min-width:0}
+.about-copy .about-grid{grid-template-columns:1fr;gap:0}
+@media(max-width:800px){.about-layout{grid-template-columns:1fr;gap:24px}.about-portrait{width:min(100%,280px);margin:0;justify-self:center;grid-row:1}.personal-note{gap:14px;flex-wrap:wrap}.personal-note p{flex:1;min-width:160px}}
+
+.project-repository{display:inline-block;margin:24px 0 18px}
+.project-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.project-gallery figure{margin:0;min-width:0}
+.project-gallery img{display:block;width:100%;aspect-ratio:4/3;object-fit:contain;background:#222832;border:1px solid #32273f;border-radius:8px}
+.project-gallery figcaption{margin-top:8px;color:#a1a1aa;font-size:14px}
+.project-status{display:inline-block;padding:4px 10px;border:1px solid #49375e;border-radius:4px;color:#c7b8e0;font-size:14px}
+@media(max-width:700px){.project-gallery{grid-template-columns:1fr}.project-gallery img{aspect-ratio:auto;height:auto}}
+
+/* Inline terminal prompt on every viewport. */
+#lucas-workspace #terminal-form{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:8px;align-items:center}
+#lucas-workspace #terminal-form .terminal-directory{grid-column:1;grid-row:1;margin:0;font-size:12px;white-space:nowrap}
+#lucas-workspace #terminal-input{grid-column:2;grid-row:1;width:100%;padding:8px 0}
+.linkedin-icon{display:inline-block;font:bold 14px Arial;border:1px solid currentColor;border-radius:3px;padding:0 3px;margin-right:6px}
+
+.contact-form{max-width:760px;margin-top:38px}
+.contact-fields{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.contact-form label{display:block;margin:16px 0 8px;color:#c5c0cf}
+.contact-form input,.contact-form textarea{display:block;width:100%;padding:12px 14px;border:1px solid #393044;border-radius:6px;background:#121016;color:#f4f4f5;font:inherit}
+.contact-form textarea{resize:vertical;min-height:150px}
+.contact-form button{margin-top:20px;padding:12px 20px;border:1px solid #8b5cf6;border-radius:6px;background:#7c3aed;color:white;font:inherit}
+.contact-form button:disabled{opacity:.6;cursor:wait}
+#contact-status{min-height:1.7em;overflow-wrap:anywhere}
+@media(max-width:600px){.contact-fields{grid-template-columns:1fr;gap:0}}
