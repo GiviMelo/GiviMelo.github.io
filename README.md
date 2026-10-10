@@ -208,13 +208,19 @@ Os wireframes são estudos simplificados da organização das telas. A implement
 | Experiência | [Abrir no Figma](https://www.figma.com/design/RuV35tpCyviDVHhfgdCMnp/Portfolio?node-id=11-59) |
 | Contato | [Abrir no Figma](https://www.figma.com/design/RuV35tpCyviDVHhfgdCMnp/Portfolio?node-id=11-83) |
 
-### Wireframes exportados
+### Wireframes
+
+#### Home
+
+![Wireframe da Home](docs/wireframes/home.png)
 
 | Sobre mim | Projetos |
 |---|---|
 | ![Wireframe de Sobre mim](docs/wireframes/sobre.png) | ![Wireframe de Projetos](docs/wireframes/projetos.png) |
 
-As exportações de Home, Experiência e Contato ainda devem ser adicionadas a `docs/wireframes/`. As telas já estão disponíveis pelos links acima.
+| Experiência | Contato |
+|---|---|
+| ![Wireframe de Experiência](docs/wireframes/experiencias.png) | ![Wireframe de Contato](docs/wireframes/contato.png) |
 
 ### Projetos apresentados
 
@@ -238,8 +244,8 @@ O pacote não contém uma suíte automatizada de testes. A conferência da vers�
 
 ### Pendências de conteúdo e entrega
 
-- Repositório e imagens do UrMind ainda não disponíveis (em desenvolvimento).
-- Sigma só permite a exportação de duas páginas. Faltaram as imagens da Home, Experiência e Contato. 
+- Adicionar repositório e imagens do UrMind quando disponíveis.
+- Sincronizar os arquivos atuais com o repositório e revisar a publicação final.
 
 ## Documentações e referências
 
