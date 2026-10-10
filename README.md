@@ -238,9 +238,8 @@ O pacote não contém uma suíte automatizada de testes. A conferência da vers�
 
 ### Pendências de conteúdo e entrega
 
-- Adicionar repositório e imagens do UrMind quando disponíveis.
-- Exportar as três imagens restantes do Figma e incluí-las no README.
-- Sincronizar os arquivos atuais com o repositório e revisar a publicação final.
+- Repositório e imagens do UrMind ainda não disponíveis (em desenvolvimento).
+- Sigma só permite a exportação de duas páginas. Faltaram as imagens da Home, Experiência e Contato. 
 
 ## Documentações e referências
 
