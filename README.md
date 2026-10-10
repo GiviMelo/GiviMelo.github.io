@@ -245,7 +245,6 @@ O pacote não contém uma suíte automatizada de testes. A conferência da vers�
 ### Pendências de conteúdo e entrega
 
 - Adicionar repositório e imagens do UrMind quando disponíveis.
-- Sincronizar os arquivos atuais com o repositório e revisar a publicação final.
 
 ## Documentações e referências
 
