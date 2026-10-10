@@ -269,11 +269,3 @@ Estudante de Ciência da Computação na PUC Minas.
 ## Contribuição
 
 Sugestões podem ser registradas nas issues do repositório. Para propor mudanças, crie uma branch, preserve a identidade visual e confira a navegação, os dois idiomas e a responsividade antes de abrir um pull request.
-
-## Agradecimentos
-
-Ao professor João Paulo Carneiro Aramuni, pela proposta do laboratório e pelo template de documentação, e à PUC Minas pelo contexto acadêmico do projeto.
-
-## Licença
-
-Nenhuma licença de distribuição foi definida nesta versão. Fotografias e elementos pessoais não devem ser reutilizados sem autorização do autor.
